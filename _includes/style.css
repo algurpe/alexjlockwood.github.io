@@ -306,15 +306,6 @@ sup {
   color: #6e6e6e;
   border-radius: 1px;
   border-bottom: 0px;
-  -webkit-transition: background-color 0.4s;
-  -moz-transition: background-color 0.4s;
-  -o-transition: background-color 0.4s;
-  transition: background-color 0.4s;
-}
-.snippet a[class=read-more]:hover {
-  background: #669900;
-  text-shadow: none;
-  color: #f8f8f8;
 }
 .mod-pagination {
   text-align: center;
@@ -738,4 +729,7 @@ html {
 }
 .fb-like.fb_iframe_widget span {
   vertical-align: top !important;
+}
+paper-button::shadow paper-ripple {
+  color: #669900;
 }
